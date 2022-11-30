@@ -93,4 +93,7 @@ class IPRotator:
     def refresh(self):
         self.clearPlate()
         self.add_IP()
-     
+   
+if __name__ =='__main__':
+    Test=IPRotator()
+    Test.PrintCIP()
